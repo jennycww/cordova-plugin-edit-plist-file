@@ -32,7 +32,7 @@
         
         <!-- iOS9 whitelisting -->
         <edit-config file=”*-Info.plist” mode=”merge” target=”NSCameraUsageDescription”>
- <string>The app uses camera to take photos for profile picture
+ <string>The app uses camera to take photos for profile picture</string>
         <!-- <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
         
      <string>The app uses camera to take photos for profile picture</string> -->
