@@ -24,6 +24,7 @@
         <!-- Requires > 3.5.0 because of the custom Framework tag for Android [CB-6698] -->
         <engine name="cordova" version=">=3.5.0" />
     </engines>
+    <dependency id="cordova-plugin-add-swift-support@1.7.2"/>
     
     
     
