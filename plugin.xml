@@ -22,13 +22,13 @@
     <engines>
         <!-- Requires > 3.3.* because of the custom Framework tag for iOS [CB-5238] -->
         <!-- Requires > 3.5.0 because of the custom Framework tag for Android [CB-6698] -->
-        <engine name="cordova" version=">=3.5.0" />
+        <engine name="cordova" version=">=6.2.0" />
     </engines>
     <!-- ios -->
     <platform name="ios">
-        <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
-            <string>The app uses camera to take photos for profile picture</string>
-        </edit-config>
+        <!-- <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        </edit-config> -->
+        <config-file overwrite="true" parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist"> <string>The app uses camera to take photos for profile picture</string> </config-file>
     </platform>
     
 </plugin>
