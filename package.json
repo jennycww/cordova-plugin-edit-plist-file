@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jermysenvendarwan/cordova-plugin-edit-plist-file"
+    "url": "https://github.com/NirbyApp/cordova-plugin-edit-plist-file.git"
   },
   "keywords": [
     "cordova",
