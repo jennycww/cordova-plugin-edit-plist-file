@@ -26,9 +26,9 @@
     </engines>
     <!-- ios -->
     <platform name="ios">
-        <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
-        <string>The app uses camera to take photos for profile picture</string>
-        </edit-config>
+        <config-file file="*-Info.plist" target="NSCameraUsageDescription">
+            <string>The app uses camera to take photos for profile picture</string>
+        </config-file>
     </platform>
     
 </plugin>
