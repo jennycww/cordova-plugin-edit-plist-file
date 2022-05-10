@@ -27,12 +27,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file file="*-Info.plist" target="NSCameraUsageDescription">
-        <array>
-            <dict>
-                <key>NSCameraUsageDescription</key>
-                <string>The app uses camera to take photos for profile picture</string>
-            </dict>
-        </array>
+            <string>The app uses camera to take photos for profile picture</string>
         </config-file>
     </platform>
     
