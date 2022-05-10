@@ -24,23 +24,10 @@
         <!-- Requires > 3.5.0 because of the custom Framework tag for Android [CB-6698] -->
         <engine name="cordova" version=">=6.2.0" />
     </engines>
-    <dependency id="cordova-plugin-add-swift-support@1.7.2"/>
-    
-    
-    
     <!-- ios -->
     <platform name="ios">
-        
-        <!-- iOS9 whitelisting -->
         <edit-config file=”*-Info.plist” mode=”merge” target=”NSCameraUsageDescription”>
- <string>The app uses camera to take photos for profile picture</string>
-        <!-- <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-        
-     <string>The app uses camera to take photos for profile picture</string> -->
-        </config-file>
-        
-        
-        
+        <string>The app uses camera to take photos for profile picture</string>
     </platform>
     
 </plugin>
