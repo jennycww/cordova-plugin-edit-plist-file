@@ -28,7 +28,13 @@
     <platform name="ios">
         <!-- <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
         </edit-config> -->
-        <config-file overwrite="true" parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist"> <string>Our app needs permission to access the camera to upload photos and certification.</string> </config-file>
+         <!-- <config-file overwrite="true" parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist"> 
+            <string> Our app needs permission to access the camera to upload photos and certification.</string> 
+        </config-file> -->
+   
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="merge"> 
+                <string>Our app needs permission to access the camera to upload photos and certification.</string>
+       </config-file>
     </platform>
     
 </plugin>
