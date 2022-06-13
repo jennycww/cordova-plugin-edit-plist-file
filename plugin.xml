@@ -32,9 +32,15 @@
             <string> Our app needs permission to access the camera to upload photos and certification.</string> 
         </config-file> -->
    
-        <config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="overwrite"> 
+      <!--   <config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="overwrite"> 
                 <string>Our app needs permission to access the camera to upload photos and certification.</string>
-       </config-file>
+       </config-file> -->
+        
+
+     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+          <string>Our app needs permission to access the camera to upload photos and certification.</string>
+     </edit-config>
+        
     </platform>
     
 </plugin>
